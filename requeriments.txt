@@ -2,3 +2,5 @@ flask
 keras-transformer
 numpy
 tensorflow
+requests
+python-dotenv
