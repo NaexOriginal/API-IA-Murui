@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from modelo_traduccion import initialize_model, translate_text  # Importa las funciones para inicializar el modelo y traducir
 
 app = Flask(__name__)
+
+CORS(app)
 
 # Inicializar el modelo al iniciar la aplicación
 initialize_model()
