@@ -1,0 +1,4 @@
+flask
+keras-transformer
+numpy
+tensorflow

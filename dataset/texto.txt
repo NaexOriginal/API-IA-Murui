@@ -1,0 +1,128 @@
+Minica. M+n+ka 
+Hola. N+e izoi it+o.
+Adios. Jid+kue.
+Gracias. F+gora.
+Bienvenido. F+go omo+ biya.
+Comida. Guiye.
+Agua. Ja+noi.
+Tierra. En+e.
+Fuego. Iirai.
+Viento. Jairifo.
+Ayuda. Kanua.
+Como estas?. N+ izzi It+o?.
+Donde estas?. N+ne it+o?.
+Yo. Kue.
+Tu. Ó.
+El. Afente
+Ella. Afegó.
+Nosotros. Ka+.
+Ustedes. Afemak+.
+Ellos. +mak+.
+Yo entiendo. Kue onodukue.
+No entiendo. Onoñed+kue.
+Qué es esto?. Jadie muñu+ka?.
+Si. j++.
+Cuanto cuesta?. N+eze raifide?.
+Cómo te llamas?. Nee mamek+?.
+Donde está el sol?. N+no yeziko jitoma ite?.
+Puedo tomar una foto?. Janana ore j+kue?.
+Puede repetir eso?. Meine Faka?.
+Lo siento, estoy apenado. Me aire Zefuid+kue.
+Vamos. Maika+.
+Tengo hambre. Jufirui t+kue.
+Como salgo?. N+eizoi jai t+kue?.
+Dónde está el río?. N+nomo imani ite?.
+Esperar. omo+ uiño.
+Mambe. Jibie.
+Animal. Okaina.
+Selva. Jazik+ ta+re.
+Fruta. Riay+.
+Que animal es?. Bue Okaina?.
+Que fruta es?. Bue riay+?.
+A que hora inicia. N+no yetika ama+ ta+neri.
+Hamaca. K+nai.
+Ya me voy. jua jai d+kue.
+Cabeza. +fok+.
+Ojo. Uij+.
+Nariz. Dogo.
+Boca. Fue.
+Diente. Izodo.
+Lengua. I+fe.
+Oreja. Juego.
+Cuello. K+ma+.
+Hombro. Fekabe.
+Brazo. Nar+yo+.
+Codo. Tag+koiño.
+Mano. Ono+.
+Dedo. Onoka+.
+Uña. Onokobe.
+Espalda. Emodo.
+Costilla. K+raig+.
+Barriga. Gene.
+Nalga. Moy.
+Pene. Z+korado.
+Testículos. j+ñ+g+.
+Ante pierna. R+a+zi.
+Pierna. +Da+.
+Tobillo. Taiz+.
+Pie. E+ba.
+Dedo pie. +Daka+.
+Uña dedo. +Dakobe.
+Corazón. komek+.
+Sángre. D+e.
+Axila. Rokafe.
+Riñón. Tukuraj+.
+Pulmón. Jazai.
+Hígado. Hanoi.
+Páncreas. Rakuefe.
+Cerebro. Chemek+.
+Orina. choie.
+Popó. nemuie.
+Vaca. jurareto.
+Venado. k+to.
+Danta. Zuruma.
+Boruga. +Me.
+Guara. F+do.
+Marrano. mero.
+Puerco. Eimo+.
+Oso hormiguero. Ereño.
+Churuco. Jem+.
+Maicero. Joma.
+Mico volador. Jidobe.
+Tigre. janayari.
+Pantera. Zuruyari.
+Ratón. Miñ+e.
+Paujil. A+fok+.
+Pava. Egüi.
+Guacharaca. Batarago+.
+Muchilero. Faido.
+Arendajo. Chirogo+ma.
+Ruiz señor. Jirima.
+Guacamayo. Era.
+Loritos. Gairikogo.
+Loro. Kueko.
+Picón. Nokaido.
+Carpintero. Chuereño.
+Pescao. Chamu.
+Caimán. Sema.
+Taricaya. Meniño.
+Anaconda. Nuio.
+Manatí. Gayi.
+Delfín. Amana.
+Pato. Noko.
+Gallina. Ataba.
+Perro. J+ko.
+¿Puedes recomendarme un lugar tranquilo para caminar?. Kue yoit+oza morena kue makay+nonoi jaz+ino?.
+¿Qué actividades culturales están disponibles para los turistas?. Bue ratue turista+a+ iena iya?.
+Me gustaría aprender más sobre su cultura, ¿dónde puedo encontrar información?. Ama+ iyak+nona aiyo fueoiakad+kue n+nomo j+konored+kue?.
+¿Hay alguna ceremonia o festival próximo al que pueda asistir?. Bue ratue iya omo momotombo ianori kue iyeno?.
+¿Cómo puedo respetar adecuadamente sus costumbres y tradiciones?. N+eze omo+ yoqak+nona uinored+kue?.
+¿Podría conocer a alguien que pueda contarme más sobre la historia de su comunidad?. Buumo j+kanored+kue omo+ ar+ kiina rafuena?.
+¿Hay algún artefacto o artesanía tradicional que sea significativo para su pueblo?. Omo+ ratemona mamenoga rana ite?.
+¿Podría señalarme el camino hacia el mercado local?. Kue yoit+oza n+zodo jait+kue ibarikiranomo?.
+¿Hay alguna región cercana que sea especialmente hermosa y digna de explorar?. Omo+ motoma iziruiga ratuena ite?.
+¿Cómo puedo aprender algunas palabras básicas del idioma Murui?. N+eze omo+ muruy+ ña+k+nono fueored+kue?.
+¿Hay alguna práctica espiritual o ceremonia que sea significativa para su comunidad?. Omo+ tomo natraimo jayap+ morena ite?.
+¿Cómo puedo contribuir de manera positiva al bienestar de su comunidad durante mi visita?. N+eze morena ired+kue beno kue iya fakaize?.
+¿Qué debo evitar hacer para no ofender a nadie durante mi estadía aquí?. N+eze jakaired+kue j+ama kaka+añeifeno?.
+¿Hay alguna actividad al aire libre que sea especialmente popular entre los locales?. Omo+ma ite rafeu dan+ omo+ena finoko?.
