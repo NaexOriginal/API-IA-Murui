@@ -3,17 +3,6 @@ from keras_transformer import get_model, decode
 import pickle
 import os
 
-# Definir rutas de archivos
-pkl_filename = os.path.join('dataset', 'traduccion.pkl')
-model_filename = 'modelo_traductor.weights.h5'
-
-# Inicializar variables globales
-model = None
-source_token_dict = {}
-target_token_dict = {}
-target_token_dict_inv = {}
-source_max_len = 0
-
 # Función para cargar el dataset
 def cargar_dataset(pkl_filename):
     with open(pkl_filename, 'rb') as pkl_file:
@@ -30,23 +19,17 @@ def build_token_dict(token_list):
     return token_dict
 
 # Función para inicializar y cargar el modelo y los datos
-def initialize_model():
-    global model, source_token_dict, target_token_dict, target_token_dict_inv, source_max_len
-
-    # Cargar y preparar los datos del modelo
+def initialize_model(pkl_filename):
     dataset = cargar_dataset(pkl_filename)
     source_tokens = [sentence.split(' ') for sentence in dataset['texto']]
     target_tokens = [sentence.split(' ') for sentence in dataset['traduccion']]
 
-    # Crear diccionarios de tokens
     source_token_dict = build_token_dict(source_tokens)
     target_token_dict = build_token_dict(target_tokens)
     target_token_dict_inv = {v: k for k, v in target_token_dict.items()}
 
-    # Determinar la longitud máxima de los tokens
     source_max_len = max(map(len, source_tokens))
 
-    # Preparar el modelo Transformer
     model = get_model(
         token_num=max(len(source_token_dict), len(target_token_dict)),
         embed_dim=32,
@@ -59,12 +42,14 @@ def initialize_model():
     )
     model.compile('adam', 'sparse_categorical_crossentropy')
 
-    # Cargar los pesos entrenados del modelo
-    model.load_weights(model_filename)
-    print("Modelo cargado correctamente con los pesos entrenados.")
+    return model, source_token_dict, target_token_dict, target_token_dict_inv, source_max_len
 
 # Función de traducción utilizando el modelo cargado
-def translate_text(sentence):
+def translate_text(sentence, model_filename, pkl_filename):
+    model, source_token_dict, target_token_dict, target_token_dict_inv, source_max_len = initialize_model(pkl_filename)
+    
+    model.load_weights(model_filename)
+    
     sentence_tokens = [sentence.split(' ')]
     sentence_tokens = [['<start>'] + tokens + ['<end>'] + ['<pad>'] * (source_max_len - len(tokens) - 2) for tokens in sentence_tokens]
     tr_input = [list(map(lambda x: source_token_dict.get(x, 0), tokens)) for tokens in sentence_tokens][0]
@@ -76,4 +61,7 @@ def translate_text(sentence):
         pad_token=target_token_dict['<pad>']
     )
     translated_text = ' '.join(map(lambda x: target_token_dict_inv.get(x, ''), decoded[1:-1]))
-    return translated_text
+    return {
+        "translated_text": translated_text, 
+        "modelo": model_filename,
+    }
